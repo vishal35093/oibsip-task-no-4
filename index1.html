@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Me!</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header class="top">
+        <h1>WELCOME TO LOGIN POTAL</h1>
+    </header>
+    <main>
+        <main class="container">
+            <div class="login-container">
+                <h1>LoGin</h1>
+                <form id="login-form">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="username" required>
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="password" id="password" name="password" required>
+                    <button type="submit" onClick="getInfo()">Login</button>
+                    <button type="reset" class="reset">Reset</button>
+                </form>
+                <p id="error-message" class="error-message"></p>
+            </div>
+        </main>
+    </main>
+    <footer class="botom" valign="bottom">
+        &copy 2023
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
